@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100% ;
+  font: normal bold 16px/normal tahoma;
+}
+
+article{
+  width: 300px;
+  text-align: center;
+  background-color: #5df382;
+  border-radius: 10px; /* bordas arredondadas  ---teste  */
+  margin:  50px auto 20px;
+  padding: 5px;
+  overflow: hidden;   /*  esconde estouros de espaço */
+  box-shadow: 3px 3px 10px rgb(184, 232, 238);
+}
+
+article h3 {
+  padding: 10px;
+  color: #fff;
+}
